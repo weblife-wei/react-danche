@@ -1,0 +1,36 @@
+.header{
+  background: #fff;
+  .headerTop{
+    height:60px;
+    line-height:60px;
+    padding:0px 20px;
+    text-align: right;
+    a{
+      margin-left: 20px;
+    }
+  }
+  .headerBottom{
+    border-top: 1px solid #001529;
+    height:40px;
+    line-height: 40px;
+    padding:0 20px;
+    .branch{
+      text-align: center;
+      position: relative;
+      .sanjiao{
+        display: inline-block;
+        width: 0px;
+        border:5px solid transparent;
+        border-top:5px solid #fff;
+        position: absolute;
+        top: 40px;
+        left:50%;
+        margin-left: -5px;
+      }
+    }
+    .timeWeight{
+      text-align: right;
+    }
+
+  }
+}

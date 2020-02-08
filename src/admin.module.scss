@@ -1,0 +1,19 @@
+.container{
+  p,h1,h2,h3,h4,h5,h6,ul,li{
+    margin:0px;
+    padding: 0px;
+  }
+  .navLeft{
+    min-width: 180px;
+    background: #001529;
+    height: 100vh;
+  }
+  .main{
+    flex: 1;
+    background: #f1f3f5;
+    height: calc(100vh);
+    .content{
+      padding:20px;
+    }
+  }
+}
