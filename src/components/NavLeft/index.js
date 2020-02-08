@@ -1,5 +1,6 @@
 import React,{useState,useEffect,} from 'react';
 import menuList from './../../config/menuConfig';
+import {Link,} from 'react-router-dom';
 import style from './index.module.scss';
 import { Menu, } from 'antd';
 
@@ -20,7 +21,7 @@ export default function Index() {
           </SubMenu>
         );
       }else{
-        return <Menu.Item key={item.key}>{item.title}</Menu.Item>;
+        return <Menu.Item key={item.key}><Link to={`/admin${item.key}`}>{item.title}</Link></Menu.Item>;
       }
     });
   };

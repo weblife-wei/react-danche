@@ -1,11 +1,9 @@
 import React from 'react';
 
-function App(props) {
+export default function index() {
   return (
     <div>
-      {props.children}
+      buttons组件
     </div>
   );
 }
-
-export default App;

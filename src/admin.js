@@ -7,7 +7,7 @@ import styles from './admin.module.scss';
 
 import {Row,Col,} from 'antd';
 
-export default function admin() {
+export default function admin(props) {
   return (
     <Row className={styles.container}>
       <Col className={styles.navLeft}
@@ -20,7 +20,7 @@ export default function admin() {
       >
         <Header/>
         <Row className={styles.content}>
-          <Home/>
+          {props.children}
         </Row>
         <Footer />
       </Col>

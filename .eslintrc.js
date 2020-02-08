@@ -24,7 +24,7 @@ module.exports={
   ],
   "rules": {
     // off=0, warn=1, error=2, 如果是数组, 第二项表示参数option
-    "indent": [2, 2], // 控制缩进为2
+    "indent": 0, // 控制缩进为2
     "eqeqeq": 1,// 警告使用全等
     "quotes": [2, "single"], //单引号
     "no-console": 0, //不禁用console
@@ -55,7 +55,7 @@ module.exports={
     "no-undef": 2, //不能有未定义的变量
     "no-use-before-define": 2, //未定义前不能使用
     "camelcase": 0, //强制驼峰法命名
-    "jsx-quotes": [2, "prefer-double"], //强制在JSX属性（jsx-quotes）中一致使用双引号
+    // "jsx-quotes": [2, "prefer-double"], //强制在JSX属性（jsx-quotes）中一致使用双引号
     "react/display-name": 0, //防止在React组件定义中丢失displayName
     "react/forbid-prop-types": [2, {"forbid": ["any"]}], //禁止某些propTypes
     "react/jsx-boolean-value": 2, //在JSX中强制布尔属性符号
