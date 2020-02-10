@@ -19,6 +19,10 @@ import Tabs from './pages/ui/tabs';
 import Cards from './pages/ui/card';
 import Carousels from './pages/ui/Carousel';
 
+//表单
+import Denglu from './pages/form/denglu';
+import Zhuce from './pages/form/zhuce';
+
 export default function RouteApp() {
   return (
     <Router>
@@ -61,6 +65,12 @@ export default function RouteApp() {
                 />
                 <Route component={Carousels}
                   path="/admin/ui/carousel"
+                />
+                <Route component={Denglu}
+                  path="/admin/form/login"
+                />
+                <Route component={Zhuce}
+                  path="/admin/form/reg"
                 />
                 <Route component={Nomatch}/>
               </Switch>

@@ -2,7 +2,6 @@ import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import NavLeft from './components/NavLeft';
-import Home from './pages/home';
 import styles from './admin.module.scss';
 
 import {Row,Col,} from 'antd';
